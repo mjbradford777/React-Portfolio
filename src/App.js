@@ -12,6 +12,9 @@ function App() {
           <Route exact path="/">
             <About />
           </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
           <Route>
             <NoMatch />
           </Route>
